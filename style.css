@@ -1,0 +1,14 @@
+.shadow::after{
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  opacity: .4;
+}
+.carousel-item img {
+  height: 80vh;
+  object-fit: cover;
+}
